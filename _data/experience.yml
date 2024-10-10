@@ -1,32 +1,19 @@
 main:
 
   - type: education
-    degreepath: PhD in Media Arts and Sciences # for type.education.
-    institution: Indiana University
-    department: The Media School
-    advisors: Stephanie DeBoer (chair), Kalani Craig, Joan Hawkins, Rachel Plotnick, Bret Rothstein # for type.education.
-    thesis: "<i>The Tuberculosis Specimen: The Dying Body and its Use Against the 'Great White Plague'</i>" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    degreepath: This is a degree path # for type.education.
+    institution: University University
+    department: Lorem Ipsum
+    advisors: Jane Doe, John Doe # for type.education.
+    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
     years: 2017 - Present
     notes: In Progress
     
-  - type: education
-    degreepath: MFA in Film and Television Production # for type.education.
-    institution: Loyola Marymount University
-    advisors: Arthur Dong (chair), Lisa Leeman, Glenn Gebhard, Dmitry Kmelnitsky # for type.education.
-    thesis: <i>The Vivisected Earth</i> # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
-    years: 2013 - 2016
-    
   - type: job
-    title: Digital Health Humanities Program Coordinator # for type.employment.
-    institution: University of California San Francisco
-    department: Library
+    title: Example Job # for type.employment.
+    institution: University University
+    department: Department
     years: 2024 - Present
-    
-  - type: job # types include "education" for degree paths, "job" for past positions
-    title: Instructor of Record # for type.employment.
-    institution: Indiana University
-    department: The Media School & Student Academic Center
-    years: Spring 2020 - Spring 2024
     
 # The structure of the data. You can include or exclude material as you need.
 #  - type: # types include "education" for degree paths, "job" for past positions. 

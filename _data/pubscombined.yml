@@ -1,85 +1,42 @@
 main: # You can enter in your items in a long list in this form. A few notes: they will not automatically be listed by time, so you will need to order it manually, with most recent at the top and least recent at the bottom.
 
   - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "Rendering in Analog Games: Dissected Puzzles and Georgian Death Culture"
-    authors: Sean Purcell # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Game Studies # for type:essay
-    publication: Game Studies # for type:essay
-    date: 2023
-    doi: https://gamestudies.org/2301/articles/purcell # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/333_Fig2_Europe_Divided_Into_its_Kingdoms.jpg #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
-    notes:
-
-
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: "Dermographic Opacities"
-    authors: Sean Purcell
-    pub_abbr: Epoiesen # for type:essay
-    publication: Epoiesen # for type:
-    date: 2021
-    doi: https://epoiesen.carleton.ca/2022/01/10/dermographic-opacities/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/Masthead1_Montgomery_TransactionsAmerican_1901_194.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
+    title: "A Journal Publication"
+    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
+    pub_abbr: Pub # for type:essay
+    publication: Publication # for type:essay
+    date: 2024
+    doi: https://digitalhealthhumanities.github.io/CVWorkshop/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
+    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
     notes:
     
   - type: conference
-    title: "Practicing Refusal in the History of Medicine: The Ethical Crisis of Studying Tuberculosis' Visual Culture"
-    authors: Sean Purcell
-    conference: The Sourthern Association for the History of Medicine and Science Virtual Conference # for type:conference
+    title: "A Conference Publication"
+    authors: Jane Doe
+    conference: A Conference # for type:conference
     date: October 2024
     notes: Upcoming
     
-  - type: conference # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: "Digital Opacities: Remediating the History of Medicine"
-    authors: Sean Purcell
-    conference: Institute for Digital Arts and Humanities Spring Symposium # for type:conference
-    date: April 2024
-    doi: https://scholarworks.iu.edu/dspace/items/81ef3104-c4ad-420c-ad1b-9515552d49e3 # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    code: # for type:essay, type:conference. This is meant to link to a code repo.
-    page: # for type:essay, type:conference. This is meant to link to an external site that may not be official, like a blog post.
-    pdf: https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/fb18cd55-aa50-4bc2-bc81-d75c83d4b8d1/content # for type:essay, type:conference. You can upload your pdfs into the pdf folder in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    notes: Poster Session
-    
   - type: grant # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: Newcombe Doctoral Dissertation Fellowship
+    title: A Grant
     date: 2024 - 2025
-    amount: $31,000 # for type:award, type:grant
+    amount: $5 # for type:award, type:grant
     notes: Declined
 
-  - type: grant # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: IDAH Graduate Fellowship
-    date: 2023 - 2024
-    institution: Institute for Digital Arts and Humanities # for type:award, type:grant
-    amount: $5,000 # for type:award, type:grant
-    
   - type: award # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: Graduate Student Essay Prize
+    title: Award Title
     date: 2024
-    institution: Society for Cinema and Media Studies Science and Technology Scholarly Interest Group # for type:award, type:grant
+    institution: Award Granting Institution # for type:award, type:grant
     amount: # for type:award, type:grant
-    awardedfor: "'Seeing Disease in Methyl Violet: Histochemistry and the Understanding of Tuberculosis (1882-1926)'" # for type:award. This will let you write the specific project if applicable. Include '' for short work and <i></i> for books and films.
-    
-  - type: award # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: Best Media Object
-    date: 2021
-    institution: Common Ground Graduate Conference # for type:award, type:grant
-    awardedfor: <i>Terminal Imaginaries</i>
-
-  - type: art # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: <i>Tuberscopia</i>
-    authors: Sean Purcell
-    date: 2023
-    image: ./assets/img/Tuberscopia_InstallationExample.jpg #for type:essay, type:art. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
-    displayed: Displayed at Common Ground Graduate Conference in April 2023, and HASTAC Conference in June 2023 
-    medium: Microscope slides, vinyl stickers, lightboard, magnifying glasses # for type:art. Refers to the material used for the art piece.
-    notes: 
+    awardedfor: "A Conference Publication" # for type:award. This will let you write the specific project if applicable. Include '' for short work and <i></i> for books and films.
 
   - type: art
-    title: <i>Tuberculous Imaginaries</i>
+    title: <i>An Art Project</i>
     authors: Sean Purcell
     date: 2022
     image: ./assets/img/TI_ProdStill1.png
-    displayed: Displayed at iFell Gallery in Bloomington, Indiana in May 2022.
-    medium: Video Installation using Three Projectors
+    displayed: Displayed at a gallery. 
+    medium: Made of specific materials.
         
 #  - type: # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
 #    title: 
