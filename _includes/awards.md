@@ -18,8 +18,6 @@
       {% endif %}
     </div>
   </div>
-
-<br>
 {% endif %}
 {% endfor %}
 

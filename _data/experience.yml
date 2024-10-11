@@ -15,10 +15,21 @@ main:
     department: Department
     years: 2024 - Present
     
+  - type: service
+    title: A role
+    institution: University university
+    years: 2020 - 2024
+    notes: Chair
+    
+  - type: service
+    title: Another role
+    institution:
+    years: 2021s
+    
 # The structure of the data. You can include or exclude material as you need.
-#  - type: # types include "education" for degree paths, "job" for past positions. 
+#  - type: # types include "education" for degree paths, "job" for past positions, and "service" for service positions.
 #    degreepath: # for type.education.
-#    title: # for type.employment.
+#    title: # for type.employment and type.service.
 #    institution:
 #    department: 
 #    advisors: # for type.education.

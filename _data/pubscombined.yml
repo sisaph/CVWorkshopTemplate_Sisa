@@ -17,6 +17,20 @@ main: # You can enter in your items in a long list in this form. A few notes: th
     date: October 2024
     notes: Upcoming
     
+  - type: conference
+    title: "A Conference Publication"
+    authors: Jane Doe
+    conference: A Conference # for type:conference
+    date: October 2024
+    notes: Upcoming
+
+  - type: conference
+    title: "A Conference Publication"
+    authors: Jane Doe
+    conference: A Conference # for type:conference
+    date: October 2024
+    notes: Upcoming
+      
   - type: grant # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
     title: A Grant
     date: 2024 - 2025
