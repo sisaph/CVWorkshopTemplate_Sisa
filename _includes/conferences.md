@@ -9,7 +9,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-9" style="position: relative;padding-right: 15px;padding-left: 20px;">
-      <div class="title"><a href="{{ link.text }}">{{ link.title }}</a></div>
+      <div class="title">{% if link.text %}<a href="{{ link.text }}">{% endif %}{{ link.title }}{% if link.text %}</a>{% endif %}</div>
       <div class="author">{{ link.authors }}</div>
       <div class="periodical"><em>{{ link.conference }}, {{ link.date }}</em>
       </div>
