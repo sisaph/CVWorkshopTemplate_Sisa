@@ -1,6 +1,15 @@
 main:
 
-  - type: education
+  - type: MA English Literature
+    degreepath: This is a degree path # for type.education.
+    institution: University University
+    department: Lorem Ipsum
+    advisors: Jane Doe, John Doe # for type.education.
+    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    years: 2017 - Present
+    notes: In Progress
+
+   - type: MA English Literature
     degreepath: This is a degree path # for type.education.
     institution: University University
     department: Lorem Ipsum
