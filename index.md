@@ -4,12 +4,12 @@ layout: homepage
 
 ## About Me
 
-Testing here
+Sisary is a lecturer teaching first year Composition and earning her second masters in the American Studies program at UMass Boston. 
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Literary:** queer memoir and cultural representations
+- **American Studies:** sound studies
 
 {% include_relative _includes/education.md %}
 
